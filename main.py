@@ -45,10 +45,6 @@ def write_file(files):
             f.write('\n')
 
 
-
-    pprint(result)
-
-
 pprint(read_catalog('recipes.txt'))
 print()
 pprint(get_shop_list_by_dishes(['Запеченный картофель', 'Омлет'], 2))
